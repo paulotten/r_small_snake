@@ -1,6 +1,6 @@
 # Building a self-contained game in Rust in (hopefully) under 8 kilobytes
 
-Michal Strehovsky in his article [Building a self-contained game in C# under 8 kilobytes](https://medium.com/@MStrehovsky/building-a-self-contained-game-in-c-under-8-kilobytes-74c3cf60ea04) goes on a journey taking a simple [Snake game](https://en.wikipedia.org/wiki/Snake_(video_game_genre\)) written in C# for an initial bloated size of 65 megabytes to tiny final size of 8 kilobytes.
+Michal Strehovsky in his article [Building a self-contained game in C# under 8 kilobytes](https://medium.com/@MStrehovsky/building-a-self-contained-game-in-c-under-8-kilobytes-74c3cf60ea04) goes on a journey taking a simple [Snake game](https://en.wikipedia.org/wiki/Snake_(video_game_genre)) written in C# for an initial bloated size of 65 megabytes to tiny final size of 8 kilobytes.
 
 This is my attempt at getting to the same place using Rust. My assumption coming into this is that the journey should be shorter in Rust due to it's smaller runtime.
 
