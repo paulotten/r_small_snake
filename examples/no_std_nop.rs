@@ -3,8 +3,6 @@
 #![no_std]
 #![no_main]
 
-extern crate libc;
-
 // windows entry point
 #[no_mangle]
 pub extern "C" fn mainCRTStartup() -> i32 {
